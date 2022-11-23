@@ -1,0 +1,10 @@
+ALGORITHM algorithm_name
+VAR
+   read v1
+   read v2 
+   s=0
+BEGIN
+    for ( let i=0 ; i<v1.length++)
+    s=s+(v1[i]*v2[i])
+whrit S
+END

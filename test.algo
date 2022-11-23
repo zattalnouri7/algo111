@@ -1,0 +1,22 @@
+ALGORITHM algorithm_name
+VAR
+    ch: String;
+    i,nbvoy, nbmots:integer;
+BEGIN
+   read(ch)
+   for(let i=0;i<ch.length; i++){
+    if(ch[i]==""){
+        nbmots++
+    }
+
+    if(ch[i] in ["a", "i", "e", "u", "y", "o"]){
+        nbvoy++
+    }
+   }
+
+   write("nbre de voy", nbvoy)
+   write("nbre de mots", nbmots)
+    write("nbre de catactères", ch.length)
+
+
+END
